@@ -15,13 +15,13 @@ else:
     dir_set = sys.argv[1] # dir_set 的格式为 image/upload-qiniu/ ，注意末尾带反斜杠/
     file_path = sys.argv[2]
 
-access_key = '3VL2keGmJMx1IXtA0UiK2OkPU3H9Pq0o0o5VL4Ds' # 个人中心->密匙管理->AK
-secret_key = '0lHpPNOgWDCDZbmMa-yoLeaABl72tWwwD-g8Ejvh' # 个人中心->密匙管理->SK
+access_key = 'xxxxx' # 个人中心->密匙管理->AK
+secret_key = 'xxxxx' # 个人中心->密匙管理->SK
 
 bucket_name = 'photos' # 七牛空间名
 bucket_url = {
-    "photos": "oyc63qxxg.bkt.clouddn.com",
-    "blog-source": "oyc63qxxg.bkt.clouddn.com",
+    "photos": "xxx.bkt.clouddn.com",
+    "blog-source": "xxx.bkt.clouddn.com",
 }
 qiniu_auth = Auth(access_key, secret_key)
 
