@@ -89,9 +89,9 @@ def handle_photo():
             list_info[-1]['arr']['size'].append(size)
     list_info.reverse()  # 翻转
     final_dict = {"list": list_info}
-    with open("/Users/royrs/Documents/Blog/source/time/data.json","w") as fp:
+    with open("/Users/xxx/Documents/Blog/source/time/data.json","w") as fp:    #Hexo位置中的data.json路径
         json.dump(final_dict, fp, indent=4, separators=(',', ': '))
-    with open("/Users/royrs/Documents/Blog/source/time/data.json","r") as fp:
+    with open("/Users/xxx/Documents/Blog/source/time/data.json","r") as fp:    #Hexo位置中的data.json路径
         print (json.load(fp))
 
 if __name__ == "__main__":
